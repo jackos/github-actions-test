@@ -8,11 +8,11 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hello world"
-      - name: multiline script
+      - name: Software versions
         run: |
           node -v
           npm -v
-          go -v
+          go version
           sam -v
           rustc -v
           cargo -v
