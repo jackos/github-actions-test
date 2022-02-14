@@ -13,6 +13,6 @@ jobs:
           node -v
           npm -v
           go version
-          sam -v
+          sam --version
           rustc -v
           cargo -v
